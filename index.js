@@ -10,14 +10,14 @@ const { exec, execSync } = require('child_process');
 const vmsServer = require('jsvms/protocols/vmess/server');
 const Validator = require('jsvms/protocols/vmess/validator');
 const { WebSocket, createWebSocketStream } = require('ws');
-const UUID = process.env.UUID || '5efabea4-f6d4-91fd-b8f0-17e004c89c60';
+const UUID = process.env.UUID || 'b4704f34-8540-4d88-a27d-089261064660';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_PORT = process.env.NEZHA_PORT || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
 const DOMAIN = process.env.DOMAIN || '';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);
-const SUB_PATH = process.env.SUB_PATH || 'sub';
+const SUB_PATH = process.env.SUB_PATH || 'subv2y';
 const NAME = process.env.NAME || '';
 const PORT = process.env.PORT || 3000;
 
